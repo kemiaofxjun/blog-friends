@@ -10,6 +10,6 @@ jobs:
       issues: write
     steps:
       - name: friends-data-migration
-        uses: xaoxuu/friends-data-migration@main
+        uses: kemiaofxjun/friends-data-migration@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated

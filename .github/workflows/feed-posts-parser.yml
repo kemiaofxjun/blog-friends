@@ -16,14 +16,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Run Feed Post Parser
-        uses: xaoxuu/feed-posts-parser@main
+        uses: kemiaofxjun/feed-posts-parser@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           posts_count: 3 # 取 3 篇文章
       # 重新生成一下JSON
       - name: Generate data.json
-        uses: xaoxuu/issues2json@main
+        uses: kemiaofxjun/issues2json@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

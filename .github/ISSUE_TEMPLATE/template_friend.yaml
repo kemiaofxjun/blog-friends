@@ -19,7 +19,7 @@ body:
         - required: false
           label: 博客已持续运行至少半年，且意向会维持起码一年以上。（在真实满足后才会通过，不满足时请不要勾选）
         - required: false
-          label: 和我双向互换友链，即你回家我（最好先加我）
+          label: 和我双向互换友链，即你会加我（最好先加我）
   - type: textarea
     id: json-data
     validations:
