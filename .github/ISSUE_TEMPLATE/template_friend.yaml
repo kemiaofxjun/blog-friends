@@ -17,9 +17,9 @@ body:
         - required: false
           label: 有独立域名，非免费域名。（在真实满足后才会通过，不满足时请不要勾选）
         - required: false
-          label: 博客已持续运行至少3年。（在真实满足后才会通过，不满足时请不要勾选）
+          label: 博客已持续运行至少半年，且意向会维持起码一年以上。（在真实满足后才会通过，不满足时请不要勾选）
         - required: false
-          label: 先友后链：与博主有至少**1年**的双向有效互动，例如互相留言评论、issue、PR等。（在真实满足后才会通过，不满足时请不要勾选）
+          label: 和我双向互换友链，即你回家我（最好先加我）
   - type: textarea
     id: json-data
     validations:
@@ -55,7 +55,7 @@ body:
     attributes:
       label: 友链地址
       description: 请输入您的友链页面地址，用于人工审核和 GitHub Actions 自动检测。（不必提前添加本站为友链，审核通过后再添加也不迟。）
-      placeholder: "如: https://xaoxuu.com/friends/"
+      placeholder: "如: https://blog-v3.kemeow.top/link/"
     validations:
       required: true
   - type: input
@@ -63,4 +63,4 @@ body:
     attributes:
       label: 友链仓库（可选）
       description: 如果您使用 issue 作为友链源，请附上 issue 仓库链接，博主将会前往您的仓库自行填写友链。
-      placeholder: "如: https://github.com/xaoxuu/friends/"
+      placeholder: "如: https://github.com/kemiaofxjun/blog-friends/"
