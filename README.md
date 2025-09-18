@@ -29,7 +29,7 @@
 ```yaml
 title: 喵洛阁
 url: https://blog-v3.kemeow.top/
-avatar: https://www.gravatar.com/avatar/7614b285e795f21e780247019c4e15c4?s=256
+icon: https://www.gravatar.com/avatar/7614b285e795f21e780247019c4e15c4?s=256
 screenshot: https://img.314926.xyz/images/2025/09/18/screenshot.webp
 description: 愿你看清一切真相后，依旧热爱你的家人和朋友。
 feed: https://blog-v3.kemeow.top/atom.xml
